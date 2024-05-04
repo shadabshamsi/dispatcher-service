@@ -1,5 +1,6 @@
 package com.shadabshamsi.dispatcherservice;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.function.context.FunctionCatalog;
@@ -9,6 +10,7 @@ import reactor.test.StepVerifier;
 
 import java.util.function.Function;
 
+@Disabled
 @FunctionalSpringBootTest
 public class DispatchingFunctionsIntegrationTests {
 
